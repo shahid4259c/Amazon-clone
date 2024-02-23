@@ -1,0 +1,721 @@
+.bold {
+  font-weight: 700;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: rgb(217, 216, 220);
+  font-family: "Amazon Ember", Arial, sans-serif;
+
+}
+.full-page {
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  display: flex;
+  text-align: center;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  gap: 1px;
+  font-size: 14px;
+
+  font-weight: 400;
+
+}
+.Nav-Container {
+  background-color: #131921;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  position: sticky;
+  top: 0;
+}
+
+.Nav-Items {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 10px;
+}
+.logo {
+  padding: 5px;
+  width: 90px;
+  height: 30px;
+}
+.logo img {
+  width: 95%;
+  height: 95%;
+}
+.isttext span {
+  color: rgb(255, 255, 255);
+}
+.isttext h3 {
+  color: rgb(255, 255, 255);
+}
+.fa-location-dot {
+  color: rgb(252, 252, 252);
+}
+.isttext {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  padding: 5px;
+}
+.isttext:hover {
+  /* border: 0.1px solid rgb(255, 255, 255); */
+  cursor: pointer;
+}
+.paragraph span {
+  padding: 0%;
+  margin: 0%;
+  color: #ccccc1;
+  font-size: 13px;
+}
+.paragraph h3 {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.paragraph h3 {
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+}
+
+.searchinput input {
+  height: 40px;
+  color: #6f7373;
+  font-size: 15px;
+  border: none;
+  border-left: 0.1px rgb(193, 193, 193) solid;
+  width: 92%;
+  outline: none;
+}
+
+.searchinput {
+  display: flex;
+  align-items: center;
+  width: 536px;
+}
+
+.span span {
+  color: #929392;
+  background-color: #e6e6e6;
+  height: 42px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-right: 0%;
+  border-radius: 4px 0 0 4px;
+}
+.search_icon {
+  height: 42px;
+  width: 43px;
+  color: #333333;
+  background-color: #febd69;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 4px 4px 0;
+  font-size: 20px;
+}
+.flag {
+  display: flex;
+  align-items: center;
+  width: 10px;
+  gap: 4px;
+  padding: 0%;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.flag img {
+  width: 18px;
+  height: 13px;
+  margin-left: 0%;
+}
+.flag h5 {
+  color: rgb(255, 255, 255);
+}
+.hello-sign {
+  margin-bottom: 20px;
+}
+.hello-sign p {
+  color: #ffffff;
+  width: 100px;
+  margin: 0%;
+  padding: 1px;
+  margin-left: 8px;
+}
+.hello {
+  margin-left: 20px;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.paragraph2 {
+  font-size: 13px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.returns {
+  padding-bottom: 20px;
+  padding-left: 29px;
+}
+.returns p {
+  color: #ffffff;
+  margin: 0%;
+  width: 100px;
+}
+.Returns {
+  font-size: 13px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.orders {
+  font-family: "Times New Roman", Times, serif;
+}
+.cart {
+  gap: 2px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.cart i {
+  color: #ffffff;
+  font-size: 25px;
+}
+.cart p {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+}
+.Sec-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #232f3e;
+  height: 40px;
+}
+.istitems {
+  display: flex;
+  align-items: center;
+}
+.secitems {
+  display: flex;
+  align-items: center;
+}
+.secall {
+  color: #e6e6e6;
+  margin-left: 7px;
+  margin-right: 10px;
+}
+.links {
+  display: flex;
+  gap: 20px;
+
+  & span {
+    cursor: pointer;
+    font-size: 13px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+}
+.fa-list {
+  color: #ffffff;
+  margin-left: 10px;
+}
+.crushed {
+  display: flex;
+}
+.crushed p {
+  color: #ff3e37;
+
+  font-size: 50px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.free p {
+  color: #ffffff;
+  margin-left: 30px;
+}
+.minitv img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  width: 60px;
+  height: 30px;
+}
+.slide img {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: 250px;
+}
+.card-container {
+  width: 100%;
+  display: flex;
+  height: 300px;
+  flex-direction: row;
+}
+.istcard img {
+  width: 93px;
+  height: 93px;
+  display: flex;
+  padding: 10px;
+}
+.istcard {
+  height: 350px;
+  width: 20%;
+  margin: 13px;
+  background-color: #ffffff;
+  padding: 22px;
+}
+.secimages {
+  display: flex;
+}
+
+.istimages {
+  display: flex;
+}
+.heading {
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.istcard span {
+  font-size: 10px;
+  display: flex;
+  align-items: baseline;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.seccard-container {
+  margin-top: 120px;
+  width: 100%;
+  display: flex;
+  height: 440px;
+  flex-direction: row;
+}
+.seccard img {
+  width: 93px;
+  height: 93px;
+  margin: 10px;
+}
+
+.seccard {
+  height: 350px;
+  width: 20.2%;
+  background-color: #ffffff;
+  margin: 15px;
+  padding: 19px;
+}
+
+.card-container span {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.seccard-container span {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.todays-deal {
+  width: 97.4%;
+  height: 370px;
+  margin-left: 16px;
+  text-align: center;
+  background-color: #ffffff;
+}
+.img-content {
+  display: flex;
+  margin: 30px;
+  justify-content: space-around;
+}
+
+.img-content img {
+  width: 200px;
+  height: 200px;
+}
+.details {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  gap: 17px;
+}
+.deals {
+  font-size: 19px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.seeall {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #288798;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.img-content button {
+  border: none;
+  padding: 4px;
+  border-radius: 3px;
+  color: #ffffff;
+  background-color: #cc0c39;
+  margin: 6px;
+  width: 100px;
+}
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.dealofthedsy {
+  color: #cc0c39;
+  font-size: 13px;
+  font-weight: 1000;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.lavaagni {
+  margin-left: 6px;
+  font-size: 11px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  color: rgb(0, 0, 0);
+}
+.freezer {
+  margin: 17px;
+  margin-bottom: 0% !important;
+  height: 350px;
+  width: 97.4%;
+}
+.all-freezers {
+  height: 250px;
+  background-color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 30px;
+  & img {
+    height: 200px;
+    width: 300px;
+  }
+}
+.off-items {
+  display: flex;
+  gap: 40px;
+}
+.second-feezer img {
+  height: 200px;
+  width: 80px;
+}
+
+.forth-feezer img {
+  width: 90px;
+}
+.fith-fridge img {
+  width: 80px;
+}
+.ac img {
+  width: 130px;
+}
+
+.twospans {
+  margin-bottom: 30px;
+}
+.fifty-percent-off {
+  font-size: 21px;
+
+  font-weight: 700;
+
+  line-height: 31.5px;
+
+  color: rgb(15, 17, 17);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.see-all-offers {
+  padding: 10px;
+  color: #288798;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.bikes {
+  margin-top: 0% !important;
+  background-color: #ffffff;
+  width: 96%;
+  margin: 15px;
+  padding: 10px;
+}
+.bikesimges {
+  display: flex;
+  flex-direction: row;
+  & img {
+    width: 20%;
+    height: 250px;
+  }
+}
+.chears {
+  background-color: #ffffff;
+  width: 97.5%;
+  margin: 17px;
+  height: 320px;
+}
+.furniture {
+  display: flex;
+  flex-direction: row;
+  & img {
+    width: 15%;
+    height: 200px;
+    padding: 10px;
+  }
+}
+.furniture-section {
+  margin: 20px;
+}
+.miximages {
+  width: 99.5%;
+  margin: 5px;
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: space-between;
+}
+.Seclolo {
+  background-color: #ffffff;
+  width: 23%;
+  height: 341px;
+  padding: 25px;
+  margin: 15px;
+}
+
+.baglolo img {
+  width: 100%;
+  height: 100%;
+}
+.watchmore {
+  display: flex;
+  align-items: baseline;
+  margin-top: 55px;
+  color: #288798;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  line-height: 19px;
+  font-weight: 400;
+  font-size: 13px;
+}
+.hrlinebox {
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid rgb(180, 180, 180);
+  margin-top: 0% !important;
+  margin-bottom: 20px;
+  height: 120px;
+}
+.sign-in button {
+  background-color: rgb(255, 201, 66);
+  border: none;
+  border-radius: 10px;
+  padding: 7px;
+  border-radius: 4px;
+  width: 230px;
+  font-weight: 600;
+  margin: 5px;
+}
+.See-personalized-recommendations span {
+  font-family: "Amazon Ember", Arial, sans-serif;
+
+  font-size: 13px;
+
+  font-weight: 400;
+
+  line-height: 15px;
+}
+.customer {
+  font-family: "Amazon Ember", Arial, sans-serif;
+
+  font-size: 11px;
+
+  font-weight: 400;
+
+  line-height: 15px;
+
+  color: rgb(0, 0, 0);
+}
+.Start-here {
+  font-family: "Amazon Ember", Arial, sans-serif;
+
+  font-size: 11px;
+
+  font-weight: 400;
+
+  line-height: 15px;
+
+  color: #288798;
+}
+.backtotop {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #37475a;
+}
+.backtotop p {
+  font-family: "Amazon Ember", Arial, sans-serif;
+
+  font-size: 13px;
+
+  font-weight: 400;
+
+  line-height: 19px;
+  color: rgb(255, 255, 255);
+}
+.fotter {
+  height: 400px;
+  background-color: rgb(35, 47, 62);
+}
+.footer-items {
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer-items p {
+  font-family: "Amazon Ember", Arial, sans-serif;
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 16.8px;
+
+  color: rgb(221, 221, 221);
+}
+#usknow {
+  font-family: "Amazon Ember", Arial, sans-serif;
+
+  font-size: 16px;
+
+  font-weight: 700;
+
+  line-height: 16.8px;
+
+  color: rgb(255, 255, 255);
+}
+.amazonimg img {
+  margin-top: 20px;
+  width: 80px;
+}
+.lunguagesec {
+  background-color: rgb(35, 47, 62);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  gap: 60px;
+  height: 100px;
+  border-top: 1px solid grey;
+}
+.lunginput input {
+  width: 100px;
+  text-align: center;
+  padding: 8px;
+  border-radius: 4px;
+  color: #ffffff !important;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(35, 47, 62);
+}
+
+.lunginput i {
+  position: relative;
+  left: 30px;
+}
+.country {
+  color: #ffffff;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #232f3e;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 60px;
+}
+.istcountry {
+  margin-bottom: 13px;
+}
+.istcountry span {
+  padding: 3px;
+}
+.seccountry span {
+  padding: 3px;
+}
+
+.fotterlinks {
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  color: rgb(153, 153, 153);
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#AbeBooks {
+  font-weight: 700;
+  color: white;
+}
+.fotterlinks span {
+  display: flex;
+  flex-direction: column;
+}
+
+.ltlinks span {
+  display: flex;
+  flex-direction: row;
+}
+.ltlinks {
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  color: rgb(153, 153, 153);
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.allfoter {
+  background-color: rgb(19, 26, 34);
+  height: 200px;
+
+  padding: 13px;
+}
+.conditions {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 12px;
+
+  font-weight: 400;
+
+  line-height: 18px;
+}
